@@ -16,7 +16,7 @@ To install this package in R from CRAN, run the following command:
 install.packages("sisVIVE")
 ```
 
-# Examples
+## Examples
 
 ```R
 library(sisVIVE)
@@ -41,5 +41,5 @@ Y = intY + Z %*% ZtoY + D * DtoY + error[,2]
 cv.sisVIVE(Y,D,Z)
 ```
 
-#### References
-Kang, H., Zhang, A., Cai, T. T., and Small, D. S. (2016). <a href="http://www.tandfonline.com/doi/full/10.1080/01621459.2014.994705">'Instrumental Variables EStiamtion with Some Invalid Instruments and its Application to Mendelian Randomization.'</a> <i>Journal of the American Statistical Association </i>, 111, 132-144.
+## References
+Kang, H., Zhang, A., Cai, T. T., and Small, D. S. (2016). <a href="http://www.tandfonline.com/doi/full/10.1080/01621459.2014.994705"> Instrumental Variables EStiamtion with Some Invalid Instruments and its Application to Mendelian Randomization.</a> <i>Journal of the American Statistical Association </i>, 111, 132-144.
