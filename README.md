@@ -34,8 +34,8 @@ error <- mvrnorm(n,rep(0,2),matrix(c(1,0.8,0.8,1),2,2))
 intD = 1; ZtoD = rep(1,L); 
 intY = 1; ZtoY = c(rep(1,s),rep(0,L-s)); DtoY = 1
 
-D = intD + Z \%*\% ZtoD + error[,1]
-Y = intY + Z \%*\% ZtoY + D * DtoY + error[,2]
+D = intD + Z %*% ZtoD + error[,1]
+Y = intY + Z %*% ZtoY + D * DtoY + error[,2]
 
 # Run sisVIVE with tuning parameter chosen via cross-validation
 cv.sisVIVE(Y,D,Z)
