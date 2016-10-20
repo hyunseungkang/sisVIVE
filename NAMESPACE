@@ -1,0 +1,7 @@
+import(lars)
+importFrom("stats","coef","predict","sd")
+export(sisVIVE, cv.sisVIVE, print.sisVIVE, predict.sisVIVE, summary.sisVIVE)
+S3method("print","sisVIVE")
+S3method("predict","sisVIVE")
+S3method("summary","sisVIVE")
+exportPattern("^[[:alpha:]]+")
